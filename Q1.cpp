@@ -7,7 +7,7 @@ int main() {
     std::cin>>a;
     std::cin>>b;
     std::cin>>c;
-    int avg = (a + b + c) / 3;
+    float avg = (a + b + c) / 3;
     std::cout<<avg<<std::endl;
     return 0;
 }

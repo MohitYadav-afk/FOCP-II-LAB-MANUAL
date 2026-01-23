@@ -4,6 +4,6 @@ int main() {
     int a;
     std::cout<<"enter the radius";
     std::cin>>a;
-    std::cout<<(float)pie*a;
+    std::cout<<(float)pie*(a*a);
     return 0;
 }
